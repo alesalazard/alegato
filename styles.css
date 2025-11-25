@@ -41,6 +41,7 @@ h1.title1 {
 
 .logo {
   width: 250px;
+  max-width: 80%;
 }
 
 .icon {
@@ -58,8 +59,11 @@ h1.title1 {
 }
 
 .img-hobbies, .img-product{
-  width: 350px;
-  height: 350px;
+  /* width: 350px;
+  height: 350px; */
+  width: 100%;
+  max-width: 350px;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -72,7 +76,8 @@ h1.title1 {
   text-align: center;
   font-size: 1.2rem;
   margin-top: 10px;
-  padding: 0 280px 20px;
+  /* padding: 0 280px 20px; */
+  padding: 0 2rem 1.5rem;
   color: #9a9791;
 }
 
@@ -87,7 +92,9 @@ h1.title1 {
 }
 
 .img-section {
-  width: 50%;
+  /* width: 50%; */
+  width: 100%;
+  max-width: 600px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -182,4 +189,88 @@ footer {
 
 .content-nav button:hover {
   background-color: #ff2e63;
+}
+
+/* Tablets y pantallas medianas */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .title2 {
+    font-size: 1rem;
+  }
+
+  .hobbies-container,
+  .product-container {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .hobbies-text,
+  .product-text {
+    padding: 0 2rem 1.5rem;
+    font-size: 1.1rem;
+  }
+
+  .tab-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .tab-nav button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .content-nav ul {
+    flex-wrap: wrap;
+  }
+}
+
+/* Móviles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .title2 {
+    font-size: 1rem;
+    margin-top: -10px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .icon {
+    width: 30px;
+  }
+
+  .hobbies-container,
+  .product-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-hobbies-text,
+  .img-product-text {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .hobbies-text,
+  .product-text {
+    font-size: 1rem;
+    padding: 0 1rem 1.5rem;
+  }
+
+  .tab-nav button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .social-links a {
+    font-size: 1.2rem;
+  }
 }
