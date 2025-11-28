@@ -1,7 +1,7 @@
 export function renderHobbies() {
   return `
     <div class="hobbies-text">
-    <h1>Mis Hobbies</h1>
+    <h2>Mis Hobbies</h2>
       <p>Soy una persona curiosa y laboriosa, siempre buscando nuevas formas de expresarme y de explorar el mundo a través de mis pantallas. Mis hobbies reflejan mi amor por el arte, la cultura y el aprendizaje. Disfruto de actividades que me permiten conectar conmigo misma, con mi mundo interior y con otras mentes.
       Mis hobbies no solo me brindan alegría y satisfacción, sino que también enriquecen mis conocimientos, mis perspectivas y mi creatividad, aspectos que valoro profundamente en mi vida profesional y personal. Mis amigas peludas forman parte de mi cotidianidad y me acompañan con desinteresado e incondicional amor en cada paso que doy. Son mi familia y el amor más puro que he conocido. <p>Amo los atardeceres y sueño con ser un árbol en mi próxima vida.</p></p>
     </div>
