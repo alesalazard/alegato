@@ -59,10 +59,10 @@ h1.title1 {
 }
 
 .img-hobbies, .img-product{
-  /* width: 350px;
-  height: 350px; */
-  width: 100%;
-  max-width: 350px;
+  width: 350px;
+  height: 350px;
+  /* width: 100%; */
+  /* max-width: 350px; */
   height: auto;
   border-radius: 10px;
 }
@@ -76,8 +76,8 @@ h1.title1 {
   text-align: center;
   font-size: 1.2rem;
   margin-top: 10px;
-  /* padding: 0 280px 20px; */
-  padding: 0 2rem 1.5rem;
+  padding: 0 280px 20px;
+  /* padding: 0 2rem 1.5rem; */
   color: #9a9791;
 }
 
@@ -92,8 +92,8 @@ h1.title1 {
 }
 
 .img-section {
-  /* width: 50%; */
-  width: 100%;
+  width: 50%;
+  /* width: 100%; */
   max-width: 600px;
   height: auto;
   display: block;
@@ -192,7 +192,7 @@ footer {
 }
 
 /* Tablets y pantallas medianas */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   h1 {
     font-size: 2.5rem;
   }
@@ -226,10 +226,10 @@ footer {
   .content-nav ul {
     flex-wrap: wrap;
   }
-}
+} */
 
 /* Móviles */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   h1 {
     font-size: 2rem;
   }
@@ -273,4 +273,4 @@ footer {
   .social-links a {
     font-size: 1.2rem;
   }
-}
+} */
